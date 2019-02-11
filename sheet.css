@@ -1,0 +1,168 @@
+.button {
+    background-color: rgb(27, 165, 207); /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
+    cursor: pointer;
+  }
+  .button1 {border-radius: 12px;
+    margin: 100px 0px 0px 520px;}  
+
+  .button2 {border-radius: 12px;
+    margin: 10px 0px 0px 800px;}  
+
+
+  .button3 {border-radius: 12px;
+    margin: 10px 0px 0px 1000px;}  
+.para{
+    font-size: 20px;
+}
+.para1{
+    font-size: 25px;
+    text-align: center;
+}
+h1
+{
+    margin: 200px 0px 0px 520px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 8px;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top:60px; 
+    
+  }
+
+.rsidenav {
+    width: 25%;
+    height:250px;
+    padding: 12px 20px;
+    font-size:20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin:-120px 0px 0px 920px;
+  }
+  input[type=text] {
+    width: 50%;
+    height:100px;
+    padding: 12px 20px;
+    font-size:20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin:10px 0px 0px 258px;
+  }
+
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=email]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .button4 {
+    background-color:rgb(27, 165, 207);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+  }  
+ 
+  .textarea{
+    width: 50%;
+    height:auto;
+    padding: 12px 20px;
+    font-size:20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin:10px 0px 0px 258px;
+  }
+ 
+  .textarea1 {
+    margin:10px 0px 0px 258px;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+ .sidenav a:hover:not(.active) {
+    background-color: rgb(27, 165, 207);
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(27, 165, 207);
+  }
+  
+  .active {
+    background-color:rgb(27, 165, 207);
+  }

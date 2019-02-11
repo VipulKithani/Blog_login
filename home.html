@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Home_Page</title>
+        <link rel="stylesheet" type="text/css" href="sheet.css">
+    </head>
+    <body>
+            <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li style="float:right"><a href="signin.html">Logout</a></li>
+                    <li style="float:right"><a href="signup.html">Sign Up</a></li>
+                  </ul>
+                  
+        <div class="sidenav">
+            
+                <a>NewsFeed</a>
+                <a>Messages</a>
+                <a>Games</a>
+                <a>Groups</a>
+                <a href="search.html">Search</a>
+                <a href="profile.html">Profile</a>
+        </div>
+        
+        <input type="text" id="myText" placeholder="Lets start Blogging....">
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myText").value;
+          document.getElementById("demo").innerHTML = x;
+        }
+        </script>
+        
+        
+      
+        <button class="button button2" onclick="myFunction()">Post</button>
+        <div class="textarea1">
+                <p style="font-size:20px;"id="demo">Welcome to Blog-Chain..!</p>
+        </div>  
+        
+    </body>
+</html>
